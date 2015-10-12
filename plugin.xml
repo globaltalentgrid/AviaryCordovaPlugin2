@@ -2,7 +2,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="gtg.withme.aviaryplugin"
-        version="0.0.9">
+        version="0.0.10">
 
 
     <name>Aviary Plugin</name>
@@ -65,7 +65,7 @@
         </config-file>
 
         <source-file src="src/android/libs/abtest.jar" target-dir="libs"/>
-        <source-file src="src/android/libs/android-support-v4-gtg.jar" target-dir="libs"/>
+        <source-file src="src/android/libs/android-support-v13.jar" target-dir="libs"/>
         <source-file src="src/android/libs/aviary-headless-library.jar" target-dir="libs"/>
         <source-file src="src/android/libs/aviary-library.jar" target-dir="libs"/>
         <source-file src="src/android/libs/aviary-tracking.jar" target-dir="libs"/>
